@@ -11,3 +11,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.qcom.sh
+
+# Baseband
+PRODUCT_PACKAGES += \
+    set_baseband.sh

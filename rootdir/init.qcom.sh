@@ -35,6 +35,8 @@ else
     prev_version_info=""
 fi
 
+setprop gsm.version.baseband `strings /firmware/IMAGE/MODEM.B12| grep "MPSS.TA.*_V" | head -1`
+setprop ro.baseband.unknown 0
 cur_version_info=`cat /firmware/verinfo/ver_info.txt`
 if [ "$prev_version_info" != "$cur_version_info" ]; then
     rm -rf /data/misc/radio/modem_config

@@ -2,6 +2,9 @@
 /dev/block/bootdevice/by-name/persist		u:object_r:persist_block_device:s0
 /dev/block/bootdevice/by-name/userdata          u:object_r:userdata_block_device:s0
 
+# Baseband
+/system/etc/set_baseband.sh                         u:object_r:set_baseband_exec:s0
+
 # Data files
 /data/misc/netmgr/log\.txt			u:object_r:netmgrd_data_file:s0
 

@@ -153,4 +153,5 @@ void vendor_load_properties()
     } else {
         property_set("ro.product.model", "Redmi 4X");
     }
+    property_set("ro.baseband.unknown", "1");
 }

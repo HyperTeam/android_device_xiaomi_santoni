@@ -756,3 +756,14 @@ service mdtpd /system/vendor/bin/mdtpd
 
 service mtservice /system/bin/mtd
     class late_start
+
+# Baseband VERSION
+on property:ro.baseband.unknown=1
+    start baseband-sh
+    setprop ro.baseband.unknown 0
+
+service baseband-sh /system/bin/sh /system/etc/set_baseband.sh
+    class late_start
+    user root
+    oneshot
+    disabled
