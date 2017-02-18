@@ -16,16 +16,9 @@
 -->
 
 <resources>
-    <!-- Opens back camera using openLegacy() -->
-    <bool name="back_camera_open_legacy">false</bool>
-
-    <!-- Opens front camera using openLegacy() and forces api v1 -->
-    <bool name="front_camera_open_legacy">false</bool>
-
-    <!-- Restart preview for back camera onPictureTaken -->
-    <bool name="back_camera_restart_preview_onPictureTaken">true</bool>
-
-    <!-- Restart preview for front camera onPictureTaken -->
-    <bool name="front_camera_restart_preview_onPictureTaken">true</bool>
-
+    <string name="pref_camera_hdr_need_1x_default" translatable="false">false</string>
+    <string name="pref_camera_auto_hdr_default" translatable="false">enable</string>
+    <string name="pref_camera_scenedetect_default" translatable="false">on</string>
+    <string name="pref_camera_dis_default" translatable="false">enable</string>
+    <string name="pref_camera_longshot_default" translatable="false">on</string>
 </resources>
