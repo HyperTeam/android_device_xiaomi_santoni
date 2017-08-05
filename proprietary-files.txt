@@ -1312,6 +1312,22 @@ vendor/lib64/libmmosal.so
 vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
+# Modules - from santoni
+lib/modules/ansi_cprng.ko
+lib/modules/backlight.ko
+lib/modules/br_netfilter.ko
+lib/modules/evbug.ko
+lib/modules/generic_bl.ko
+lib/modules/lcd.ko
+lib/modules/mmc_block_test.ko
+lib/modules/mmc_test.ko
+lib/modules/rdbg.ko
+lib/modules/spidev.ko
+lib/modules/test-iosched.ko
+lib/modules/ufs_test.ko
+lib/modules/wil6210.ko
+lib/modules/pronto/pronto_wlan.ko:lib/modules/wlan.ko
+
 # Network - from santoni
 -priv-app/QtiTetherService/QtiTetherService.apk
 vendor/lib/libconnctrl.so
