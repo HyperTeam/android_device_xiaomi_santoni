@@ -148,23 +148,20 @@ void vendor_load_properties()
     property_set("ro.hwui.text_large_cache_width", "2048");
     property_set("ro.hwui.text_large_cache_height", large_cache_height);
 
-    if (buf.find("S88537AA1") != std::string::npos) {
-        property_set("ro.build.display.wtid", "SW_S88537AA1_V080_M20_MP_XM");
-    } else if (buf.find("S88537AB1") != std::string::npos) {
-        property_set("ro.build.display.wtid", "SW_S88537AB1_V080_M20_MP_XM");
-    } else if (buf.find("S88537AC1") != std::string::npos) {
-        property_set("ro.build.display.wtid", "SW_S88537AC1_V080_M20_MP_XM");
-    } else if (buf.find("S88537BA1") != std::string::npos) {
-        property_set("ro.build.display.wtid", "SW_S88537BA1_V080_M20_MP_XM");
-    } else if (buf.find("S88537CA1") != std::string::npos) {
-        property_set("ro.build.display.wtid", "SW_S88537CA1_V080_M20_MP_XM");
-    } else if (buf.find("S88537EC1") != std::string::npos) {
-        property_set("ro.build.display.wtid", "SW_S88537EC1_V080_M20_MP_XM");
+    if (buf.find("S88536AA2") != std::string::npos) {
+        property_set("ro.build.display.wtid", "SW_S88536AA2_V028_M11_XM_A13N_USR_TEST");
+        property_set("ro.product.subproject", "S88536AA2");
+    } else if (buf.find("S88536BA2") != std::string::npos) {
+        property_set("ro.build.display.wtid", "SW_S88536BA2_V028_M11_XM_A13N_USR_TEST");
+        property_set("ro.product.subproject", "S88536BA2");
+    } else if (buf.find("S88536CA2") != std::string::npos) {
+        property_set("ro.build.display.wtid", "SW_S88536CA2_V028_M11_XM_A13N_USR_TEST");
+        property_set("ro.product.subproject", "S88536CA2");
     }
 
-    if (buf.find("S88537AB1") != std::string::npos) {
-        property_set("ro.product.model", "Redmi 3X");
+    if (buf.find("S88536CA2") != std::string::npos) {
+        property_set("ro.product.model", "Redmi 4");
     } else {
-        property_set("ro.product.model", "Redmi 3S");
+        property_set("ro.product.model", "Redmi 4X");
     }
 }
