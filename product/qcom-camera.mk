@@ -1,6 +1,5 @@
 # Snap
 PRODUCT_PACKAGES += \
-    libshims_camera \
     Snap
 
 # Camera
