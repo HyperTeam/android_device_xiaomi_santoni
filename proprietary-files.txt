@@ -134,7 +134,7 @@ vendor/lib64/libvendorconn.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# Camera - from land
+# Camera - from santoni
 bin/mm-qcamera-daemon
 etc/camera/ofilm_s5k5e8_chromatix.xml
 etc/camera/ov13853_q13853a_chromatix.xml
@@ -287,7 +287,7 @@ vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
-# Camera actuators - from land
+# Camera actuators - from santoni
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
 vendor/lib/libactuator_bu64291gwz.so
@@ -304,7 +304,7 @@ vendor/lib/libactuator_dw9718s.so
 vendor/lib/libactuator_dw9763.so
 vendor/lib/libactuator_dw9763_ov13853.so
 
-# Camera chromatix - from land
+# Camera chromatix - from santoni
 vendor/lib/libchromatix_ov5670_f5670bq_a3_default_preview.so
 vendor/lib/libchromatix_ov5670_f5670bq_a3_default_video.so
 vendor/lib/libchromatix_ov5670_f5670bq_a3_hfr_120.so
@@ -987,7 +987,7 @@ vendor/lib/libchromatix_s5k3m2xx_video_4k.so
 vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so
 vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so
 
-# Camera firmware - from land
+# Camera firmware - from santoni
 etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_10_0.fw
@@ -998,7 +998,7 @@ etc/firmware/cpp_firmware_v1_5_2.fw
 etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
 
-# Camera sensors - from land
+# Camera sensors - from santoni
 vendor/lib/libmmcamera_isp_wb40.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
@@ -1083,12 +1083,12 @@ vendor/lib64/libsecureuisvc_jni.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
-# Display calibration - from land
+# Display calibration - from santoni
 -etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml
 -etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml
 -etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml
 
-# Fingerprint - from land
+# Fingerprint - from santoni
 bin/gx_fpcmd
 bin/gx_fpd
 lib/hw/fingerprint.default.so:lib/hw/fingerprint.msm8937.so
@@ -1455,7 +1455,7 @@ vendor/lib64/libimsmedia_jni.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
 
-# Radio - MBN - from land
+# Radio - MBN - from santoni
 etc/firmware/modem_config/S88537AA1/cmcc_mcfg_sw.mbn
 etc/firmware/modem_config/S88537AA1/ct_mcfg_sw.mbn
 etc/firmware/modem_config/S88537AA1/cu_mcfg_sw.mbn
@@ -1498,7 +1498,7 @@ vendor/lib/libTimeService.so
 -vendor/lib64/libtime_genoff.so
 vendor/lib64/libTimeService.so
 
-# Touchscreen - from land [TODO-Dont call from kernel]
+# Touchscreen - from santoni [TODO-Dont call from kernel]
 etc/ft5336_biel_720p.ini
 etc/ft5336_lens_720p.ini
 etc/ft5336_oufei_720p.ini

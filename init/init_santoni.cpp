@@ -109,7 +109,7 @@ void vendor_load_properties()
     std::string buf;
 
     std::string product = property_get("ro.product.name");
-    if (product.find("land") == std::string::npos)
+    if (product.find("santoni") == std::string::npos)
         return;
 
     fin.open("/proc/cmdline");

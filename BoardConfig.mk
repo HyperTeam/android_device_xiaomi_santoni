@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/land
+DEVICE_PATH := device/xiaomi/santoni
 
 # Inherit device-specific board fragments
 include $(DEVICE_PATH)/board/*.mk
 
 # Inherit the proprietary files
--include vendor/xiaomi/land/BoardConfigVendor.mk
+-include vendor/xiaomi/santoni/BoardConfigVendor.mk

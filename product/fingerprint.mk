@@ -1,7 +1,7 @@
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd \
-    fingerprint.land
+    fingerprint.santoni
 
 # Permissions
 PRODUCT_COPY_FILES += \

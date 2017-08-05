@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=land
+DEVICE=santoni
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2016
