@@ -2,7 +2,7 @@
 PRODUCT_PACKAGES += \
     Snap
 
-# Camera
+# ZRAM
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
     media.camera.ts.monotonic=0 \
@@ -12,5 +12,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
     vidc.enc.disable.pq=true \
     media.stagefright.legacyencoder=true \
-    media.stagefright.less-secure=true \
-    persist.camera.HAL3.enabled=1
+    media.stagefright.less-secure=true
