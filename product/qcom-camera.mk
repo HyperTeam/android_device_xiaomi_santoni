@@ -5,7 +5,7 @@ PRODUCT_PACKAGES += \
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
-    media.camera.ts.monotonic=0 \
+    media.camera.ts.monotonic=1 \
     persist.camera.gyro.android=1 \
     persist.camera.is_type=1 \
     vidc.debug.perf.mode=2 \
