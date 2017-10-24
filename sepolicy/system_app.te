@@ -1,3 +1,4 @@
 # Allow binder calls to fingerprintd
 binder_call(system_app, fingerprintd)
 allow system_app baseband_prop:file read;
+allow priv_app baseband_prop:file read;
