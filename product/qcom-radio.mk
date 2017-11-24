@@ -33,12 +33,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ril.ecclist=100,101,102,108,112 \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-    ro.ct.device.model=XMP-2016030 \
     ro.telephony.call_ring.multiple=false \
-    ro.telephony.default_network=20 \
+    ro.telephony.default_network=22 \
     ro.use_data_netmgrd=true \
-    service.qti.ims.enabled=1 \
-    telephony.lteOnCdmaDevice=1
+    service.qti.ims.enabled=1
 
 # Radio
 PRODUCT_PACKAGES += \
