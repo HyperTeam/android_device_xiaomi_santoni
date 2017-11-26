@@ -276,6 +276,12 @@ vendor/lib/libtm_interface.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
+# Gallery Beautify Libs - from cheeseburger
+vendor/lib/libts_detected_face_jni.so|794ef062b75d81812789367b87b08b8ba8788c45
+vendor/lib/libts_face_beautify_jni.so|fcf8eecf98d9ee92f7fb6eb9ad4317da74b5c4c8
+vendor/lib64/libts_detected_face_jni.so|762e246f7a7f574ba320bee19c6e1152cbb75a38
+vendor/lib64/libts_face_beautify_jni.so|1c3d484ca2c22bb375821b180f83eb7aa04a4f8a
+
 # Camera actuators - from santoni
 vendor/lib/libactuator_dw9763.so
 vendor/lib/libactuator_dw9763_ov13855.so
