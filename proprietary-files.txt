@@ -160,11 +160,20 @@ lib/libqomx_core.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libFaceProc.so
 vendor/lib/libarcsoft_beauty_shot.so
+vendor/lib/libarcsoft_beautyshot_image_algorithm.so
+vendor/lib/libarcsoft_beautyshot.so
+vendor/lib/libarcsoft_beautyshot_video_algorithm.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
+vendor/lib/libllvd_smore.so
+vendor/lib/libmpbase.so
+vendor/lib/libremosaic_daemon.so
+vendor/lib/libRecoFace.so
+vendor/lib/libcaffe.so
+vendor/lib/libXMFD_AgeGender.so
 
 vendor/lib/libmmcamera_dcrf_lib.so
 vendor/lib/libmmcamera_cac3_lib.so
@@ -196,7 +205,7 @@ vendor/lib/libmmcamera_isp_bf_stats47.so
 vendor/lib/libmmcamera_isp_bg_stats44.so
 vendor/lib/libmmcamera_isp_bhist_stats44.so
 vendor/lib/libmmcamera_isp_bpc40.so
-vendor/lib/libmmcamera_isp_chroma_ehan40.so
+vendor/lib/libmmcamera_isp_chroma_enhan40.so
 vendor/lib/libmmcamera_isp_chroma_suppress40.so
 vendor/lib/libmmcamera_isp_clamp_encoder40.so
 vendor/lib/libmmcamera_isp_clamp_video40.so
@@ -232,6 +241,8 @@ vendor/lib/libmmcamera_ov5675_ofilm_eeprom.so
 vendor/lib/libmmcamera_ov13855_sunny.so
 vendor/lib/libmmcamera_ov13855_sunny_eeprom.so
 vendor/lib/libmmcamera_paaf_lib.so
+vendor/lib/libmmcamera_pdaf.so
+vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_sw2d_lib.so
@@ -245,14 +256,13 @@ vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_pproc_modules.so
 vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera2_vpe_module.so
-vendor/lib/libmmcamera2_wnr_module.so
 
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
@@ -270,7 +280,6 @@ vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libseemore.so
-vendor/lib/libtm_interface.so
 -vendor/lib/libts_detected_face_hal.so
 -vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libtrueportrait.so
@@ -308,6 +317,7 @@ vendor/lib/libchromatix_s5k3l8_ofilm_hfr_120_dw9763.so
 vendor/lib/libchromatix_s5k3l8_ofilm_default_preview_dw9763.so
 vendor/lib/libchromatix_s5k3l8_ofilm_default_video_dw9763.so
 vendor/lib/libchromatix_s5k3l8_ofilm_zsl_preview_dw9763.so
+vendor/lib/libchromatix_s5k3l8_ofilm_zsl_video_dw9763.so
 
 vendor/lib/libchromatix_ov5675_ofilm_common.so
 vendor/lib/libchromatix_ov5675_ofilm_hfr_60.so
@@ -463,7 +473,7 @@ lib64/libfpservice.so
 vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8937.so
 
-# GPS - from garlic
+# GPS - from vince
 -framework/com.qti.location.sdk.jar
 -framework/com.qualcomm.location.vzw_library.jar
 -framework/izat.xt.srv.jar
@@ -599,7 +609,6 @@ vendor/lib64/libsd_sdk_display.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
 
 # Graphics firmware - from santoni
 etc/firmware/a530_gpmu.fw2
@@ -684,7 +693,7 @@ vendor/bin/mm-pp-dpps
 vendor/lib/libdisp-aba.so
 vendor/lib64/libdisp-aba.so
 
-# QMI - from garlic
+# QMI - from vince
 bin/ATFWD-daemon
 bin/irsc_util
 etc/permissions/qti_permissions.xml
@@ -728,14 +737,14 @@ vendor/lib/libqmiservices.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libsmemlog.so
 
-# Radio - from garlic
+# Radio - from vince
 -app/datastatusnotification/datastatusnotification.apk
 -app/fastdormancy/fastdormancy.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -app/shutdownlistener/shutdownlistener.apk
 -framework/embmslibrary.jar
 -framework/qcrilhook.jar
--framework/qti-telephony-common.jar|37d692fb171d0ee3269676a9e9998d2e3bfd9488
+-framework/qti-telephony-common.jar
 -framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 bin/netmgrd
@@ -763,9 +772,9 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib/libmdmdetect.so
 vendor/qcril.db
 
-# Radio - IMS - from garlic
+# Radio - IMS - from vince
 -framework/imscmlibrary.jar
--priv-app/ims/ims.apk|66fa3ab695d7be55a334cbee6e9c94d60089ac2a
+-vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
 -vendor/framework/qti-vzw-ims-internal.jar
 bin/ims_rtp_daemon
